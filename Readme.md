@@ -1,7 +1,7 @@
 #SocialLoader
-SocialLoader hilft die datenschutzrechtlichen Probleme mit Facebook-Buttons ( http://www.zdnet.com/blog/facebook/germany-facebook-like-button-violates-privacy-laws/2837 ) zu vermeiden. Es lädt die Buttons von Facebook, Google+ & Co erst bei Bedarf nach und zeigt vorher in einem Tooltip ggf. einen Datenschutzhinweis an.
+SocialLoader ist ein jQuery-Plugin, das hilft [die datenschutzrechtlichen Probleme mit Facebook-Buttons](http://www.zdnet.com/blog/facebook/germany-facebook-like-button-violates-privacy-laws/2837 "Germany - Facebook-like button violates privacy laws") zu vermeiden. Es lädt die Buttons von Facebook, Google+ & Co erst bei Bedarf nach und zeigt vorher in einem Tooltip ggf. einen Datenschutzhinweis an.
 
-Das Plugin ist nach Vorbild der SWR3-Webseite entwickelt worden (http://www.swr3.de/info/computer-und-netz/Wer-hat-Angst-vor-Google-Facebook/-/id=63956/did=1177470/gsg6rv/index.html siehe Buttons unter dem Artikel).
+Das Plugin ist nach Vorbild der [SWR3-Webseite](http://www.swr3.de/info/computer-und-netz/Wer-hat-Angst-vor-Google-Facebook/-/id=63956/did=1177470/gsg6rv/index.html) entwickelt worden  (siehe Buttons unter dem Artikel).
 
 ## Usage
     	<head>
