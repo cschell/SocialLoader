@@ -1,11 +1,11 @@
 (function($){
     $.fn.socialLoader = function(settings){
         var config = {
-			'tooltip': '',
+			'tooltip': 'null',
 			
-			'replacement': '',
+			'code': 'null',
 			
-			'script': '',
+			'script': 'false',
 			
 			'loaderClass': 'socialLoader',
 			
@@ -43,8 +43,8 @@
 				$('.' + config.tooltipClass, this).hide();
 			});
 			
-			$(loaderClass).click(function(event) {
-				$(this).html(config.replacement);
+			$(this).click(function(event) {
+				$(this).html(config.code);
 				$.getScript(config.script);
 				$(this).removeClass(config.loaderClass);
 			});

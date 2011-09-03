@@ -6,17 +6,17 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		
 		<script src="jquery-1.6.2.min.js" type="text/javascript" charset="utf-8"></script>
-		<script src="socialloader.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../socialloader.js" type="text/javascript" charset="utf-8"></script>
 		
 		<script type="text/javascript" charset="utf-8">
 			$(document).ready(function() {
 				
 				$('.facebook-share').socialLoader({'tooltip': 'Datenschutz: Erst Share-Button einblenden, dann nochmal drauf drücken. Dadurch wird eine Verbindung zu Facebook hergestellt.',
-												   'replacement': '<a class="facebook" href="http://www.facebook.com/sharer.php" name="fb_share" share_url="https://github.com/cschell/SocialLoader" type="button">Share</a>',
+												   'code': '<a class="facebook" href="http://www.facebook.com/sharer.php" name="fb_share" share_url="https://github.com/cschell/SocialLoader" type="button">Share</a>',
 												   'script': 'http://static.ak.fbcdn.net/connect.php/js/FB.Share'});
 				
 				$('.gplus').socialLoader({ 'tooltip': 'Datenschutz: Erst G+-Button einblenden, dann nochmal drauf drücken. Dadurch wird eine Verbindung zu Facebook hergestellt.',
-										   'replacement': '<g:plusone size="small"></g:plusone>',
+										   'code': '<g:plusone size="small"></g:plusone>',
 										   'script': 'http://apis.google.com/js/plusone.js'});
 			});			
 		</script>
