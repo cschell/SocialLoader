@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		
+		<script src="jquery-1.6.2.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="socialloader.js" type="text/javascript" charset="utf-8"></script>
+		
+		<script type="text/javascript" charset="utf-8">
+			$(document).ready(function() {
+				
+				$('.facebook-share').socialLoader({'tooltip': 'Datenschutz: Erst Share-Button einblenden, dann nochmal drauf drücken. Dadurch wird eine Verbindung zu Facebook hergestellt.',
+												   'replacement': '<a class="facebook" href="http://www.facebook.com/sharer.php" name="fb_share" share_url="https://github.com/cschell/SocialLoader" type="button">Share</a>',
+												   'script': 'http://static.ak.fbcdn.net/connect.php/js/FB.Share'});
+				
+				$('.gplus').socialLoader({ 'tooltip': 'Datenschutz: Erst G+-Button einblenden, dann nochmal drauf drücken. Dadurch wird eine Verbindung zu Facebook hergestellt.',
+										   'replacement': '<g:plusone size="small"></g:plusone>',
+										   'script': 'http://apis.google.com/js/plusone.js'});
+			});			
+		</script>
+	</head>
+
+	<body>
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<div class="facebook-share"><img src="facebook-share.png" alt="facebook share" /></div>
+		
+	 	<br />
+	 	<br />
+	 	<br />
+	 	<br />
+	 	<br />
+	 	<br />
+	 	<br />
+	 	<br />
+	 	<br />
+		<div class="gplus"><img src="g+.png" alt="Google+" /></div>
+		
+	</body>
+
+</html>
